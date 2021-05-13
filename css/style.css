@@ -991,19 +991,26 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    display: grid;
+    grid-column-gap: 100px;
+    display: grid;
 }
 
 .team .team-item {
-    position: relative;
+    padding: 30px 0 40px;
     margin-bottom: 30px;
-    padding: 15px;
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, .07);
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .team .team-img {
     position: relative;
     overflow: hidden;
+    height: 300px;
+    width: 300px;
+    align-items: center;
 }
 
 .team .team-img img {
