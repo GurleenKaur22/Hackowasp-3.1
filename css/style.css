@@ -2005,23 +2005,6 @@ a:focus {
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
-.footer .copyright p {
-    margin: 0;
-    color: #ffffff;
-}
-
-.footer .copyright .col-md-6:last-child p {
-    text-align: right;
-}
-
-.footer .copyright p a {
-    color: #ffffff;
-    font-weight: 600;
-}
-
-.footer .copyright p a:hover {
-    color: #F7CAC9;
-}
 
 @media (max-width: 767.98px) {
     .footer .copyright p,
