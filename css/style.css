@@ -283,7 +283,7 @@ a:focus {
 
 .hero .hero-image {
     position: relative;
-    text-align: right;
+    text-align: center;
 }
 
 .hero .hero-image img {
@@ -554,15 +554,23 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
+.service .box{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+
 .service .service-item {
     position: relative;
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
     padding: 30px;
-    border: 1px solid rgba(0, 0, 0, .07);
+    border: 5px solid rgba(0, 0, 0, .07);
     transition: .3s;
+    color: #ffffff;
 }
+
 
 .service .service-item:hover,
 .service .service-item.active {
@@ -644,6 +652,13 @@ a:focus {
 .service .service-item p {
     margin: 0;
     font-size: 16px;
+    color: #000000
+}
+
+.service .service-item:hover p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
 }
 
 
@@ -799,7 +814,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: linear-gradient(rgba(247, 202, 201, .7), rgba(247, 202, 201, .7)), url(../img/discount-bg.png);
+    background: linear-gradient(rgba(247, 202, 201, .7), rgba(247, 202, 201, .7)), url(../img/hero.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -830,7 +845,8 @@ a:focus {
 }
 
 .discount .discount-text p {
-    color: #454545;
+    color: #000000;
+    font-weight: bold;
 }
 
 .discount .discount-text .btn {
@@ -991,19 +1007,26 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    display: grid;
+    grid-column-gap: 100px;
+    display: grid;
 }
 
 .team .team-item {
-    position: relative;
+    padding: 30px 0 40px;
     margin-bottom: 30px;
-    padding: 15px;
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, .07);
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .team .team-img {
     position: relative;
     overflow: hidden;
+    height: 300px;
+    width: 300px;
+    align-items: center;
 }
 
 .team .team-img img {
@@ -1073,20 +1096,32 @@ a:focus {
     transition: .3s .3s;
 }
 
-.team .team-text {
+.team .team-text {  
     position: relative;
     padding: 25px 15px 10px 15px;
-    text-align: center;
     background: #ffffff;
+    margin-left: -40px;
 }
 
 .team .team-text h2 {
     font-size: 18px;
     font-weight: 600;
+    text-align: center;
 }
 
 .team .team-text p {
-    margin: 0;
+    margin: 50;
+    text-align: center;
+}
+
+.hello{
+    margin-left: 50px;
+}
+
+.hello2{
+    margin-left: 50px;
+    padding: 50px;
+    margin-top: -100px;
 }
 
 
@@ -1885,7 +1920,6 @@ a:focus {
 }
 
 
-
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
@@ -1986,23 +2020,6 @@ a:focus {
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
-.footer .copyright p {
-    margin: 0;
-    color: #ffffff;
-}
-
-.footer .copyright .col-md-6:last-child p {
-    text-align: right;
-}
-
-.footer .copyright p a {
-    color: #ffffff;
-    font-weight: 600;
-}
-
-.footer .copyright p a:hover {
-    color: #F7CAC9;
-}
 
 @media (max-width: 767.98px) {
     .footer .copyright p,
@@ -2011,3 +2028,13 @@ a:focus {
         text-align: center;
     }
 }
+
+
+
+.periodicon{
+    z-index: 1000;
+
+}
+
+
+  
