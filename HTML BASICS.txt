@@ -1,0 +1,31 @@
+<strong> ___ </strong> : bold
+<em> ___ </em> : italics
+<small> </small>
+
+HEADING TAGS :
+<h1> </h1>..so on
+1-6 : larger the no, less importance
+
+UNORDERED LIST-bullets
+<ul>
+<li> abc </>
+</ul>
+
+ORDERED LIST-NO.S
+<ol>
+<li> abc </>
+</ol>
+
+for different sections/grouping:
+<div>
+</div>
+
+<br> - breaks/new line
+
+<img src=" ">
+
+HTML FORMS
+<form>
+<label for="username"> enter username: </label>
+<input type="text" id="username">
+</form>
