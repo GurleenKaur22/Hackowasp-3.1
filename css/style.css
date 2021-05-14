@@ -1456,6 +1456,7 @@ a:focus {
     padding: 15px;
     background: none;
     border-radius: 0;
+    border: 1px solid black;
 }
 
 .contact .contact-form textarea {
@@ -1463,6 +1464,8 @@ a:focus {
     padding: 15px;
     background: none;
     border-radius: 0;
+    border: 1px solid black;
+
 }
 
 .contact .contact-form .btn {
