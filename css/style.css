@@ -2035,9 +2035,8 @@ a:focus {
 
 
 .periodicon{
-    z-index: 1000;
-
+    z-index: 2;
+    height: 55px;
+    width: 55px;
 }
 
-
-  
