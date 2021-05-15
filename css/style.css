@@ -761,7 +761,7 @@ a:focus {
     font-weight: 600;
     margin: 0 0 0 15px;
     white-space: nowrap;
-    overflow: hidden;
+    
 }
 
 .class .class-teacher a {
@@ -976,7 +976,7 @@ a:focus {
     border-top: none;
 }
 
-.price .price-action a.btn {
+.price  a.btn {
     margin-bottom: 30px;
     padding: 12px 20px;
     color: #343148;
@@ -984,17 +984,19 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 0;
-    background: #F7CAC9;
+    background: hsl(1, 74%, 88%);
     transition: .3s;
+    position:absolute;
+    left: 725px;
 }
 
-.price .price-action a:hover,
-.price .price-item.featured-item .price-action a {
+.price  a:hover
+ {
     color: #F7CAC9;
     background: #343148;
 }
 
-.price .price-item.featured-item .price-action a:hover {
+.price  a:hover {
     color: #343148;
     background: #F7CAC9;
 }
