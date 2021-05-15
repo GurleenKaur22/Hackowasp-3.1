@@ -987,7 +987,7 @@ a:focus {
     background: hsl(1, 74%, 88%);
     transition: .3s;
     position:absolute;
-    left: 725px;
+    left: 700px;
 }
 
 .price  a:hover
